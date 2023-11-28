@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class anim_script : MonoBehaviour
 {
-    public GameObject cat;
+    public GameObject click_object;
 
     private Animator anim;
 
@@ -22,7 +22,7 @@ public class anim_script : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             Vector3 wp = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            PolygonCollider2D coll = cat.GetComponent<PolygonCollider2D>();
+            PolygonCollider2D coll = click_object.GetComponent<PolygonCollider2D>();
 
             if(coll.OverlapPoint(wp)) 
             {
