@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1184934156540195115
+--- !u!1 &2643106561878992935
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,8 +8,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5172106914029375799}
-  - component: {fileID: 5343146610157849742}
+  - component: {fileID: 6651405373881340945}
+  - component: {fileID: 3652998683917223059}
   m_Layer: 0
   m_Name: background_weed
   m_TagString: Untagged
@@ -17,28 +17,28 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5172106914029375799
+--- !u!4 &6651405373881340945
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1184934156540195115}
+  m_GameObject: {fileID: 2643106561878992935}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.00053, y: -0.02454, z: 0}
-  m_LocalScale: {x: 0.59996843, y: 0.59686685, z: 1}
+  m_LocalPosition: {x: 1.21012, y: -0.70036, z: 25.4761}
+  m_LocalScale: {x: 0.25969127, y: 0.25834876, z: 0.43287638}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 792743567003148565}
+  m_Father: {fileID: 262400943337584551}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &5343146610157849742
+--- !u!212 &3652998683917223059
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1184934156540195115}
+  m_GameObject: {fileID: 2643106561878992935}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -84,7 +84,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &6734057552208575393
+--- !u!1 &4213536619108107568
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -92,8 +92,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4667249059581201678}
-  - component: {fileID: 6843357669666678087}
+  - component: {fileID: 3814088918441108636}
+  - component: {fileID: 2598167620426082715}
   m_Layer: 0
   m_Name: background_sky
   m_TagString: Untagged
@@ -101,28 +101,28 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4667249059581201678
+--- !u!4 &3814088918441108636
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6734057552208575393}
+  m_GameObject: {fileID: 4213536619108107568}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.00073, y: 0.37498, z: 0}
-  m_LocalScale: {x: 0.5994987, y: 0.37751484, z: 1}
+  m_LocalPosition: {x: 1.20957, y: -0.52742, z: 25.4761}
+  m_LocalScale: {x: 0.25948793, y: 0.1634041, z: 0.43287638}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 792743567003148565}
+  m_Father: {fileID: 262400943337584551}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &6843357669666678087
+--- !u!212 &2598167620426082715
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6734057552208575393}
+  m_GameObject: {fileID: 4213536619108107568}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -168,7 +168,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &8415983767688126884
+--- !u!1 &5943657884035055716
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -176,7 +176,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 792743567003148565}
+  - component: {fileID: 262400943337584551}
   m_Layer: 0
   m_Name: background
   m_TagString: Untagged
@@ -184,20 +184,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &792743567003148565
+--- !u!4 &262400943337584551
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8415983767688126884}
+  m_GameObject: {fileID: 5943657884035055716}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.00037693977, y: 0.013875008, z: 0}
-  m_LocalScale: {x: 5.4741626, y: 5.3395004, z: 1}
+  m_LocalPosition: {x: -0.00037574768, y: 0.013875008, z: 0.0000019073486}
+  m_LocalScale: {x: 5.4741616, y: 5.3395004, z: 0.99999994}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 4667249059581201678}
-  - {fileID: 5172106914029375799}
+  - {fileID: 3814088918441108636}
+  - {fileID: 6651405373881340945}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
